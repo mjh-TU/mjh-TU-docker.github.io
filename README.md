@@ -1,6 +1,6 @@
 ### Docker Project
 
-  ## Installed docker on ubuntu machine by first
+## Installed docker on ubuntu machine by first
     Source: https://docs.docker.com/engine/install/ubuntu/
     Set up dockers apt repository
     Installed the docker packages
@@ -8,18 +8,18 @@
     Verify
       sudo docker run hello-world
 
-  ## Verified docker compose install using
+## Verified docker compose install using
     docker compose version
 
-  ## Install OpenVAS
+## Install OpenVAS
     Installed yml file from https://github.com/mikesplain/openvas-docker using command:
       git clone https://github.com/mikesplain/openvas-docker.git
 
-  ## Build and start docker
+## Build and start docker
     ran the command in the directory of the downloaded file
       sudo docker-compose up -d
 
-  ## Issue and next step taken
+## Issue and next step taken
     Ran into issue, apparently the mikesplain build image is no longer available so going to use https://greenbone.github.io/docs/latest/
 
     Installed the yml file using this command
