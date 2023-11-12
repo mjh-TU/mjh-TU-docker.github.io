@@ -1,4 +1,4 @@
-### Docker Project
+# Docker Project
 
 ## Installed docker on ubuntu machine by first
     Source: https://docs.docker.com/engine/install/ubuntu/
