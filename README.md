@@ -8,8 +8,9 @@
     Verify
       sudo docker run hello-world
 
-## Verified docker compose install using
-    docker compose version
+## Docker compose install using
+    sudo apt install docker-compose
+    docker-compose --version
 
 ## Install OpenVAS
     Installed yml file from https://github.com/mikesplain/openvas-docker using command:
@@ -22,12 +23,21 @@
 ## Issue and next step taken
     Ran into issue, apparently the mikesplain build image is no longer available so going to use https://greenbone.github.io/docs/latest/
 
+    Created new folder called greenbone-community-container with command
+        mkdir greenbone-community-container
+    
     Installed the yml file using this command
       curl -f -L https://greenbone.github.io/docs/latest/_static/docker-compose-22.4.yml -o docker-compose.yml
 
+    Ran the command to start and build docker container while in the folder I created
+        sudo docker-compose up -d
+
     Ran into memory issue with greenbone so i just decided to do wordpress, created a directory called wordpress and made new docker-compose.yml and pasted it from their website: https://www.hostinger.com/tutorials/run-docker-wordpress
 
+    Ran command: sudo docker-compose up -d
+    
     Accessed wordpress from browser on port 8000
+    
     Created user and password
     
 ## Admin page:
